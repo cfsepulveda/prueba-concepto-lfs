@@ -1,0 +1,4 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.mkv
+git[[:space:]]lfs[[:space:]]track[[:space:]]*.mkv filter=lfs diff=lfs merge=lfs -text
+test2.mp4 filter=lfs diff=lfs merge=lfs -text
